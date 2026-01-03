@@ -6,6 +6,7 @@ Script Purpose:
     This script creates tables in the 'silver' schema, dropping existing tables 
     if they already exist.
 	  Run this script to re-define the DDL structure of 'bronze' Tables
+	Added a column called dwh_create_date to every table to understand when data was loaded into Silver Layer Tables
 ===============================================================================
 */
 
